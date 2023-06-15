@@ -1,8 +1,10 @@
 # TheForgetMeNotList
 
-## Common 
+![Alt text](assets/github_assets/main_screen.jpg)
+![Alt text](assets/github_assets/choose_task_due_date.jpg)
 
-The application contains:
+## Features 
+
 - the main screen, as well as the screen for adding/editing tasks;
 - swipe on the item Completed/Delete with logic;
 - showing completed tasks with logic.
@@ -12,7 +14,7 @@ The application contains:
 APK archive path:<br/>
 /apk-release.apk
 
-## Getting Started
+## Run
 
 Run assets generation:<br/>
 flutter pub run build_runner build --delete-conflicting-outputs
