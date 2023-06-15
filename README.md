@@ -9,7 +9,7 @@ The application contains:
 
 ## APK
 
-APK archive:<br/>
+APK archive path:<br/>
 /apk-release.apk
 
 ## Getting Started
