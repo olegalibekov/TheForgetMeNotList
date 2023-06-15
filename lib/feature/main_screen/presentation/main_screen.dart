@@ -31,7 +31,7 @@ class _MainScreenState extends State<MainScreen> {
             final tasksList = TasksState.instance.fetchList();
             final completedTasks = TasksState.instance.fetchCompletedTasks();
             return CustomScrollView(
-              physics: BouncingScrollPhysics(),
+              physics: const BouncingScrollPhysics(),
               shrinkWrap: true,
               slivers: <Widget>[
                 SliverPersistentHeader(

@@ -51,8 +51,103 @@ class TasksState {
       importance: Importance.low,
     ),
     TaskModel(
+      isCompleted: false,
+      description: 'Купить что-то, где-то, зачем-то, но зачем не очень понятно, но точно чтобы показать как обр…',
+      importance: Importance.notSpecified,
+    ),
+    TaskModel(
       isCompleted: true,
       description: 'Купить что-то',
+      importance: Importance.notSpecified,
+    ),
+    TaskModel(
+      isCompleted: false,
+      description: 'Купить что-то, где-то, зачем-то, но зачем не очень понятно',
+      importance: Importance.notSpecified,
+    ),
+    TaskModel(
+      isCompleted: false,
+      description: 'Купить что-то',
+      importance: Importance.notSpecified,
+    ),
+    TaskModel(
+      isCompleted: true,
+      description: 'Купить что-то',
+      importance: Importance.notSpecified,
+    ),
+    TaskModel(
+      isCompleted: false,
+      description: 'Купить что-то',
+      importance: Importance.notSpecified,
+    ),
+    TaskModel(
+      isCompleted: true,
+      description: 'Купить что-то, где-то, зачем-то, но зачем не очень понятно',
+      importance: Importance.notSpecified,
+    ),
+    TaskModel(
+      isCompleted: true,
+      description: 'Купить что-то',
+      importance: Importance.notSpecified,
+    ),
+    TaskModel(
+      isCompleted: true,
+      description: 'Купить что-то',
+      importance: Importance.notSpecified,
+    ),
+    TaskModel(
+      isCompleted: false,
+      description: 'Купить что-то, где-то, зачем-то, но зачем не очень понятно',
+      importance: Importance.notSpecified,
+    ),
+    TaskModel(
+      isCompleted: false,
+      description: 'Купить что-то, где-то, зачем-то, но зачем не очень понятно, но точно чтобы показать как обр…',
+      importance: Importance.notSpecified,
+    ),
+    TaskModel(
+      isCompleted: false,
+      description: 'Купить что-то',
+      importance: Importance.high,
+    ),
+    TaskModel(
+      isCompleted: false,
+      description: 'Купить что-то',
+      importance: Importance.low,
+    ),
+    TaskModel(
+      isCompleted: false,
+      description: 'Купить что-то, где-то, зачем-то, но зачем не очень понятно, но точно чтобы показать как обр…',
+      importance: Importance.notSpecified,
+    ),
+    TaskModel(
+      isCompleted: true,
+      description: 'Купить что-то',
+      importance: Importance.notSpecified,
+    ),
+    TaskModel(
+      isCompleted: false,
+      description: 'Купить что-то, где-то, зачем-то, но зачем не очень понятно',
+      importance: Importance.notSpecified,
+    ),
+    TaskModel(
+      isCompleted: false,
+      description: 'Купить что-то',
+      importance: Importance.notSpecified,
+    ),
+    TaskModel(
+      isCompleted: true,
+      description: 'Купить что-то',
+      importance: Importance.notSpecified,
+    ),
+    TaskModel(
+      isCompleted: false,
+      description: 'Купить что-то',
+      importance: Importance.notSpecified,
+    ),
+    TaskModel(
+      isCompleted: true,
+      description: 'Купить что-то, где-то, зачем-то, но зачем не очень понятно',
       importance: Importance.notSpecified,
     ),
   ];
