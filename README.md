@@ -7,7 +7,14 @@ The application contains:
 - swipe on the item Completed/Delete with logic;
 - showing completed tasks with logic.
 
+## APK
+
+APK archive:\n
+/apk-release.apk
+
 ## Getting Started
 
-Run assets generation:
+Run assets generation:\n
 flutter pub run build_runner build --delete-conflicting-outputs
+
+
