@@ -24,5 +24,4 @@ class CustomLightThemeTypography implements CustomTypographyInterface {
   TextStyle get button => customTypography.button.copyWith(color: labelPrimary);
   @override
   TextStyle get subhead => customTypography.subhead.copyWith(color: labelPrimary);
-
 }

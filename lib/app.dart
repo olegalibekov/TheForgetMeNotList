@@ -32,7 +32,6 @@ class Application extends StatelessWidget {
           logger.i('route to ${MainScreen.name}');
           return const MainScreen();
         }
-        // TaskScreen.path: (context) => const TaskScreen(),
       },
     );
   }

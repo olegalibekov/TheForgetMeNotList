@@ -43,18 +43,8 @@ class $AssetsSvgGen {
   String get visibilityOff => 'assets/svg/visibility_off.svg';
 
   /// List of all assets
-  List<String> get values => [
-        add,
-        arrowBack,
-        check,
-        close,
-        delete,
-        infoOutline,
-        priorityHigh,
-        priorityLow,
-        visibility,
-        visibilityOff
-      ];
+  List<String> get values =>
+      [add, arrowBack, check, close, delete, infoOutline, priorityHigh, priorityLow, visibility, visibilityOff];
 }
 
 class Assets {

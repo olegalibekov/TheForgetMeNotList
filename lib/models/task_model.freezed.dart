@@ -22,25 +22,18 @@ mixin _$TaskModel {
   DateTime? get dueDate => throw _privateConstructorUsedError;
 
   @JsonKey(ignore: true)
-  $TaskModelCopyWith<TaskModel> get copyWith =>
-      throw _privateConstructorUsedError;
+  $TaskModelCopyWith<TaskModel> get copyWith => throw _privateConstructorUsedError;
 }
 
 /// @nodoc
 abstract class $TaskModelCopyWith<$Res> {
-  factory $TaskModelCopyWith(TaskModel value, $Res Function(TaskModel) then) =
-      _$TaskModelCopyWithImpl<$Res, TaskModel>;
+  factory $TaskModelCopyWith(TaskModel value, $Res Function(TaskModel) then) = _$TaskModelCopyWithImpl<$Res, TaskModel>;
   @useResult
-  $Res call(
-      {bool isCompleted,
-      String description,
-      Importance importance,
-      DateTime? dueDate});
+  $Res call({bool isCompleted, String description, Importance importance, DateTime? dueDate});
 }
 
 /// @nodoc
-class _$TaskModelCopyWithImpl<$Res, $Val extends TaskModel>
-    implements $TaskModelCopyWith<$Res> {
+class _$TaskModelCopyWithImpl<$Res, $Val extends TaskModel> implements $TaskModelCopyWith<$Res> {
   _$TaskModelCopyWithImpl(this._value, this._then);
 
   // ignore: unused_field
@@ -79,25 +72,17 @@ class _$TaskModelCopyWithImpl<$Res, $Val extends TaskModel>
 
 /// @nodoc
 abstract class _$$_TaskModelCopyWith<$Res> implements $TaskModelCopyWith<$Res> {
-  factory _$$_TaskModelCopyWith(
-          _$_TaskModel value, $Res Function(_$_TaskModel) then) =
+  factory _$$_TaskModelCopyWith(_$_TaskModel value, $Res Function(_$_TaskModel) then) =
       __$$_TaskModelCopyWithImpl<$Res>;
   @override
   @useResult
-  $Res call(
-      {bool isCompleted,
-      String description,
-      Importance importance,
-      DateTime? dueDate});
+  $Res call({bool isCompleted, String description, Importance importance, DateTime? dueDate});
 }
 
 /// @nodoc
-class __$$_TaskModelCopyWithImpl<$Res>
-    extends _$TaskModelCopyWithImpl<$Res, _$_TaskModel>
+class __$$_TaskModelCopyWithImpl<$Res> extends _$TaskModelCopyWithImpl<$Res, _$_TaskModel>
     implements _$$_TaskModelCopyWith<$Res> {
-  __$$_TaskModelCopyWithImpl(
-      _$_TaskModel _value, $Res Function(_$_TaskModel) _then)
-      : super(_value, _then);
+  __$$_TaskModelCopyWithImpl(_$_TaskModel _value, $Res Function(_$_TaskModel) _then) : super(_value, _then);
 
   @pragma('vm:prefer-inline')
   @override
@@ -131,11 +116,7 @@ class __$$_TaskModelCopyWithImpl<$Res>
 /// @nodoc
 
 class _$_TaskModel implements _TaskModel {
-  _$_TaskModel(
-      {required this.isCompleted,
-      required this.description,
-      required this.importance,
-      this.dueDate});
+  _$_TaskModel({required this.isCompleted, required this.description, required this.importance, this.dueDate});
 
   @override
   final bool isCompleted;
@@ -156,24 +137,19 @@ class _$_TaskModel implements _TaskModel {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _$_TaskModel &&
-            (identical(other.isCompleted, isCompleted) ||
-                other.isCompleted == isCompleted) &&
-            (identical(other.description, description) ||
-                other.description == description) &&
-            (identical(other.importance, importance) ||
-                other.importance == importance) &&
+            (identical(other.isCompleted, isCompleted) || other.isCompleted == isCompleted) &&
+            (identical(other.description, description) || other.description == description) &&
+            (identical(other.importance, importance) || other.importance == importance) &&
             (identical(other.dueDate, dueDate) || other.dueDate == dueDate));
   }
 
   @override
-  int get hashCode =>
-      Object.hash(runtimeType, isCompleted, description, importance, dueDate);
+  int get hashCode => Object.hash(runtimeType, isCompleted, description, importance, dueDate);
 
   @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  _$$_TaskModelCopyWith<_$_TaskModel> get copyWith =>
-      __$$_TaskModelCopyWithImpl<_$_TaskModel>(this, _$identity);
+  _$$_TaskModelCopyWith<_$_TaskModel> get copyWith => __$$_TaskModelCopyWithImpl<_$_TaskModel>(this, _$identity);
 }
 
 abstract class _TaskModel implements TaskModel {
@@ -193,6 +169,5 @@ abstract class _TaskModel implements TaskModel {
   DateTime? get dueDate;
   @override
   @JsonKey(ignore: true)
-  _$$_TaskModelCopyWith<_$_TaskModel> get copyWith =>
-      throw _privateConstructorUsedError;
+  _$$_TaskModelCopyWith<_$_TaskModel> get copyWith => throw _privateConstructorUsedError;
 }
