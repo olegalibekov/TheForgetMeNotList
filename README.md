@@ -9,12 +9,12 @@ The application contains:
 
 ## APK
 
-APK archive:\n
+APK archive:<br/>
 /apk-release.apk
 
 ## Getting Started
 
-Run assets generation:\n
+Run assets generation:<br/>
 flutter pub run build_runner build --delete-conflicting-outputs
 
 
