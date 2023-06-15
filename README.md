@@ -1,6 +1,6 @@
 # TheForgetMeNotList
 
-![alt|500](assets/github_assets/main_screen.jpg | height=100)
+![Alt text](assets/github_assets/main_screen.jpg | height=100)
 ![Alt text](assets/github_assets/choose_task_due_date.jpg)
 
 ## Features 
