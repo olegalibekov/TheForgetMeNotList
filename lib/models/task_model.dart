@@ -5,16 +5,6 @@ part 'task_model.freezed.dart';
 
 @freezed
 class TaskModel with _$TaskModel {
-  // final String description;
-  // final Importance importance;
-  // final DateTime dueDate;
-
-  // TaskModel({
-  //   required this.description,
-  //   required this.importance,
-  //   required this.dueDate,
-  // });
-
   factory TaskModel({
     required bool isCompleted,
     required String description,
