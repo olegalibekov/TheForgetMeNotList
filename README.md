@@ -1,7 +1,7 @@
 # TheForgetMeNotList
 
-![Alt text](/assets/github_asssets/main_screen.jpg)
-![Alt text](/assets/github_asssets/choose_task_due_date.jpg)
+![Alt text](assets/github_assets/main_screen.jpg)
+![Alt text](assets/github_assets/choose_task_due_date.jpg)
 
 ## Common 
 
